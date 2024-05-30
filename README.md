@@ -20,7 +20,9 @@ You need the following:<br>
 
 <!-- Connection tutorial -->
 ## What & where to connect - start (finish)
- <li>Rasberry PI:<br><img src="RPI5.png"> </li>
+ ### Rasberry PI:
+ <br>
+ <img src="RPI5.png" width="400" height="400"> 
   Ground1 (1st board, for all LEDs/Buttons),, GPIO14 TXD (Arduino RX), GPIO15 RXD (Arduino TX), GPIO25 (Red LED CAR), GPIO8 (Yellow LED CAR), GPIO7 (Green LED CAR), GPIO21 (Start Button), GPIO2 (Red LED PED), GPIO3 (Green LED PED)
 * Arduino Nano<br><img src="Arduino_Nano.jpg">
  D12 (Blue counter LED), D11 (White confirmation LED), D4 (Counter Button), D3 (Confirmation button), RX (RPi TX), TX (RPi RX), GND (2nd board, for Arduino/Buttons/LEDs)<br>
