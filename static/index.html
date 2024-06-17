@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Add and Confirm</title>
+<style>
+  button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out;
+  }
+
+  button:active {
+    transform: scale(0.90);
+  }
+</style>
+<script>
+  function sendRequest(endpoint) {
+    fetch(endpoint, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({}),
+    }).then(response => response.json())
+      .then(data => console.log(data));
+  }
+</script>
+</head>
+<body>
+  <button onclick="sendRequest('/add')">Add cars/pedestrians</button>
+  <button onclick="sendRequest('/confirm')">Confirm</button>
+</body>
+</html>
