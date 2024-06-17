@@ -51,3 +51,10 @@ You will need the following components:
 ![Components Used](Stuff_Used.jpg)
 
 More information can be found in the code comments, where you'll find the project configurations, etc.
+<br>
+### How 2 operate:
+Press the Start button once - smart mode
+<br>
+Hold the Start button for >2 seconds, normal mode
+<br>
+You can exit any mode at specific times if you hold the Start button pressed (after telling how many pedestrians are - SMART / after a state change - NORMAL)
