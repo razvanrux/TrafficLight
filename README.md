@@ -2,7 +2,7 @@
 
 This project was created in 2 days using a Raspberry Pi 5 combined with Arduino Nano for managing a Smart Traffic light, both for cars and pedestrians.
 
-Time wasted: 14 hours
+Time wasted: ~20 hours
 
 Neurons lost: I also lost count of the neurons lost, so it's a lot.
 
